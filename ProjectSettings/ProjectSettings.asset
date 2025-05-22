@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 1a9bfed8a4530cf4682f91f2bfa198a2
+  productGUID: 13967358eb8e2b04b9d76f0f1a6cc766
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: TestTowerDefense
+  productName: Project Test-TD
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -596,14 +596,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: TestTowerDefense
+  metroPackageName: Project Test-TD
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: TestTowerDefense
+  metroApplicationDescription: Project Test-TD
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -674,11 +674,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 979dd52a-5c84-470d-99ba-aed417c512cd
+  cloudProjectId: ba5eddce-2b05-40b0-9a3e-12f09ef8b7b3
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: TestTowerDefense
-  organizationId: hmd240203
+  projectName: Project Test-TD
+  organizationId: anhdung6113
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
