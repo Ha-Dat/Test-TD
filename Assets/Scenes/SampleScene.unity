@@ -7021,6 +7021,84 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1484669063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1703121564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703121566}
+  - component: {fileID: 1703121565}
+  - component: {fileID: 1703121567}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1703121565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703121564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53307bf5dd0ff1545ad733bbf3728435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPoint: {fileID: 532669889}
+  path:
+  - {fileID: 159495096}
+  - {fileID: 1755593361}
+  - {fileID: 433259733}
+  - {fileID: 1003859881}
+  - {fileID: 1594349684}
+  - {fileID: 295441222}
+  - {fileID: 635500687}
+  - {fileID: 1319457378}
+  - {fileID: 1693795338}
+  - {fileID: 569550673}
+  - {fileID: 1388784935}
+--- !u!4 &1703121566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703121564}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.87616, y: 3.72878, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1703121567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703121564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17863bb762c7c1f4ba3bd8d08dd48127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 8520145562379842623, guid: 100c3981e8682f247ab13b18d141324c, type: 3}
+  - {fileID: 8520145562379842623, guid: 3f95aeb224eeedb4daab8748cd0c1f85, type: 3}
+  baseEnemies: 7
+  enemiesPerSecond: 3
+  timeBetweenWaves: 1
+  difficultyScalingFactor: 0.5
+  amountOfWaves: 3
 --- !u!1001 &1703921858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9040,3 +9118,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 516667208}
   - {fileID: 1484669063}
+  - {fileID: 1703121566}
